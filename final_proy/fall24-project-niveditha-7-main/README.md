@@ -243,7 +243,10 @@ Time taken by function: 2 ms
 
 - What is the runtime of your algorithm? 
 - (Optional) Can you do it faster than `O(n)`?
-
+answer : runtime of auto complete : Iterating through all the nodes -> O(n);
+converting each string to lower -> O(l) so combines run time complexity is O(n*l).
+ 
+ 
 ## Item 2-1: Find the place's coordinates in the Map (Phase 1)
 
 ```c++
@@ -371,7 +374,26 @@ Please report and compare the time spent by these algorithms.
 
 | Point A to Point B      | Dijkstra | Bellman Ford| Bellman Ford optimized|
 | -------------------- | ----------- |-------|-----|
-|                      |  t1         | t2    |   t3  |
+|                      |  t1 (ms)    | t2 (ms)    |   t3 (ms) |
+|Ralphs to Target      |  56         | 5313  |       |
+|Chevron to Target     |  86         | 9060  |      |
+|Chase - Cheebos Burger|  163        | 6500  |      |
+|George Lucas Instructional Building to Arco                     | 94            |  7273     |      |
+|Trojan Grounds (Starbucks) to  Ralphs                     |  75           |7141       |      |
+|Chipotle to DASH                      |58             |7181       |      |
+|Hope Manor to The Pearl      |  58           | 12639      |      |
+|Dulce to the Barber Shop                     | 103           |  5682     |      |
+|Vermont & Exposition 1  to Distributing Station 31|   116         | 8302      |      |
+|Stimson House to Hoover & 28th |  63           |  8426     |      |
+|Felix Chevrolet to Pico & Grand|  156           |  9728     |      |
+| Hill & Adams to Driveway    |    72         |    10411   |      |
+| Lyons Center to Venice & Flower| 124           |  10796     |      |
+|Olive & 12th to  Lululemon |       92      |  10600     |      |
+|Grand & 39th to Chick-fil-A | 35            |  9269     |      |
+| The Coffee Bean & Tea Leaf to Birnkrant |     45        | 8485      |      |
+|                      |             |       |      |
+|                      |             |       |      |
+
 
 Your table should show have at least 15 rows.
 

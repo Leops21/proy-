@@ -286,7 +286,7 @@ TEST(TrojanMapTest, CalculateShortestPath_TrojanPath) {
 
 }
 
-// Test get all categories
+// Test get all categories, 
 TEST(TrojanMapTest, GetAllCategories) {
   TrojanMap m;
   
